@@ -36,3 +36,24 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+target/
+
+# Claude Code (личное)
+.claude/settings.local.json
+.claude/projects/
+.claude/history/
+.claude/todos/
+.claude/logs/
+
+# OpenSpec (кэш)
+openspec/.cache/
+openspec/tmp/
+
+# OS и логи
+.DS_Store
+*.log
