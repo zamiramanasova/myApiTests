@@ -18,7 +18,7 @@ public class FirstTest {
     public void checkUserJanet() {
         RestAssured
                 .given()
-                .relaxedHTTPSValidation()
+                .relaxedHTTPSValidation() //доверять всем сертификатам
                 .baseUri("https://jsonplaceholder.typicode.com") //база
                 .when()
                 .get("/users/2")//Эндпоинт (как в Charles

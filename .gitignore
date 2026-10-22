@@ -57,3 +57,5 @@ openspec/tmp/
 # OS и логи
 .DS_Store
 *.log
+
+*.teory
